@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+  padding-bottom: env(safe-area-inset-bottom);
+  background-color: var(--ink, #140F14);
+  color: var(--parchment, #F6ECD9);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 600px;
+  border: 3px solid var(--parchment, #F6ECD9);
+  padding: 3rem 2rem;
+  box-shadow: 8px 8px 0 var(--gulaabi, #E8386D);
+  background-color: var(--ink, #140F14);
+}
+
+.title {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: clamp(4rem, 15vw, 8rem);
+  line-height: 1;
+  margin-bottom: 2rem;
+  color: var(--gulaabi, #E8386D);
+}
+
+.urduText {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  line-height: 2;
+  margin-bottom: 1rem;
+}
+
+.translation {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+  opacity: 0.8;
+}
+
+.homeBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0.75rem 2rem;
+  background: var(--parchment, #F6ECD9);
+  color: var(--ink, #140F14);
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid var(--parchment, #F6ECD9);
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 4px 4px 0 var(--gulaabi, #E8386D);
+}
+
+.homeBtn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--gulaabi, #E8386D);
+}

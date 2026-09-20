@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  border-block-end: 3px solid var(--ink, #140F14);
+}
+.tabsWrapper {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.tabsWrapper::-webkit-scrollbar {
+  display: none;
+}
+.tab {
+  padding: 1rem 2rem;
+  background-color: var(--parchment, #F6ECD9);
+  border: 3px solid var(--ink, #140F14);
+  border-block-end: none;
+  border-radius: 0;
+  font-family: var(--font-archivo-black), sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--ink, #140F14);
+  cursor: pointer;
+  margin-inline-end: -3px; /* Overlap borders */
+  transition: all 0.2s;
+  position: relative;
+  top: 3px;
+}
+.tab:hover:not(.active) {
+  background-color: var(--blush, #F7C6D0);
+}
+.tab.active {
+  background-color: var(--ink, #140F14);
+  color: var(--parchment, #F6ECD9);
+  z-index: 1;
+}

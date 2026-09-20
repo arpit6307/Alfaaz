@@ -1,0 +1,96 @@
+.fallbackContainer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.backdropGlow {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(217, 169, 59, 0.25) 0%, rgba(90, 15, 46, 0.1) 60%, transparent 80%);
+  filter: blur(40px);
+}
+
+.sealWrapper {
+  position: relative;
+  z-index: 2;
+  animation: sealFloat 6s ease-in-out infinite;
+}
+
+@keyframes sealFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-14px) rotate(2deg);
+  }
+}
+
+.sealImage {
+  filter: drop-shadow(0 12px 24px rgba(20, 15, 20, 0.65));
+}
+
+.particlesContainer {
+  position: absolute;
+  inset: 0;
+}
+
+.petal {
+  position: absolute;
+  width: 14px;
+  height: 20px;
+  background-color: var(--rose, #E8386D);
+  border-radius: 50% 0 50% 50%;
+  opacity: 0.75;
+  animation: petalFall 10s linear infinite;
+}
+
+.petal0 { left: 15%; animation-delay: 0s; }
+.petal1 { left: 40%; animation-delay: 2.5s; }
+.petal2 { left: 70%; animation-delay: 5s; }
+.petal3 { left: 88%; animation-delay: 7s; }
+
+@keyframes petalFall {
+  0% {
+    top: -10%;
+    transform: rotate(0deg) translateX(0);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    top: 110%;
+    transform: rotate(360deg) translateX(60px);
+    opacity: 0;
+  }
+}
+
+.goldSparkle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: var(--gold, #D9A93B);
+  box-shadow: 0 0 6px var(--gold, #D9A93B);
+  animation: sparkleFloat 7s ease-in-out infinite;
+}
+
+.sparkle0 { left: 25%; top: 30%; animation-delay: 0.5s; }
+.sparkle1 { left: 65%; top: 50%; animation-delay: 2s; }
+.sparkle2 { left: 80%; top: 25%; animation-delay: 3.5s; }
+
+@keyframes sparkleFloat {
+  0%, 100% { opacity: 0.2; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.5); }
+}

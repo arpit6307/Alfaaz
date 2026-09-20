@@ -1,0 +1,28 @@
+{
+  "name": "Alfaaz — Jahan Lafz Zinda Hain",
+  "short_name": "Alfaaz",
+  "description": "The dedicated social platform for poets, readers, and lovers of Urdu, Hindi, and world poetry.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#5A0F2E",
+  "background_color": "#F6ECD9",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

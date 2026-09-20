@@ -1,0 +1,16 @@
+.card {
+  background-color: var(--parchment, #F6ECD9);
+  border: 3px solid var(--ink, #140F14);
+  border-radius: 0;
+  box-shadow: 6px 6px 0 var(--ink, #140F14);
+  color: var(--ink, #140F14);
+  transition: all 0.2s ease-in-out;
+}
+.hoverable:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0 var(--ink, #140F14);
+}
+.padding-none { padding: 0; }
+.padding-sm { padding: 1rem; }
+.padding-md { padding: 1.5rem; }
+.padding-lg { padding: 2rem; }

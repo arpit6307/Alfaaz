@@ -1,0 +1,50 @@
+{
+  "Common": {
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "close": "बंद करें",
+    "submit": "जमा करें",
+    "loading": "लोड हो रहा है...",
+    "error": "एक त्रुटि हुई",
+    "success": "सफल!"
+  },
+  "Navigation": {
+    "home": "होम",
+    "explore": "खोजें",
+    "compose": "लिखें",
+    "chat": "चैट",
+    "profile": "प्रोफ़ाइल",
+    "notifications": "सूचनाएं",
+    "settings": "सेटिंग्स",
+    "search": "खोज"
+  },
+  "Auth": {
+    "login": "लॉग इन",
+    "signup": "साइन अप",
+    "logout": "लॉग आउट",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "noAccount": "क्या आपका खाता नहीं है?",
+    "haveAccount": "क्या आपके पास पहले से खाता है?"
+  },
+  "Shayari": {
+    "post": "पोस्ट",
+    "write": "अपने दिल की बात लिखें...",
+    "likes": "पसंद",
+    "comments": "टिप्पणियाँ",
+    "share": "साझा करें",
+    "reply": "उत्तर दें",
+    "readMore": "और पढ़ें"
+  },
+  "Profile": {
+    "followers": "फॉलोअर्स",
+    "following": "फॉलोइंग",
+    "posts": "पोस्ट",
+    "editProfile": "प्रोफ़ाइल संपादित करें",
+    "bio": "परिचय",
+    "joined": "शामिल हुए"
+  }
+}

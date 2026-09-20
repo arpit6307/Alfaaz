@@ -1,0 +1,174 @@
+.container {
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: var(--parchment, #F6ECD9);
+  padding-bottom: env(safe-area-inset-bottom, 5rem);
+}
+
+.header {
+  margin-bottom: 2rem;
+  border-bottom: 3px solid var(--ink, #140F14);
+  padding-bottom: 1rem;
+}
+
+.headerBadge {
+  width: 44px;
+  height: 44px;
+  background-color: var(--gold, #D9A93B);
+  border: 2px solid var(--ink, #140F14);
+  box-shadow: 2px 2px 0 var(--ink, #140F14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink, #140F14);
+}
+
+.title {
+  font-family: var(--font-heading), 'Archivo Black', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--ink, #140F14);
+}
+
+.subtitle {
+  font-family: var(--font-space-mono), monospace;
+  font-size: 0.85rem;
+  color: var(--text-secondary, #666);
+  margin-top: 4px;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.activeChallenge {
+  background: var(--royal-purple, #3A1C71);
+  color: white;
+  border: 3px solid var(--ink, #140F14);
+  padding: 2rem;
+  box-shadow: 8px 8px 0 var(--ink, #140F14);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+
+.challengeBadge {
+  position: absolute;
+  top: -15px;
+  right: 1rem;
+  background: var(--gulaabi-rose, #E8386D);
+  border: 3px solid var(--ink, #140F14);
+  padding: 0.25rem 1rem;
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.challengeTitle {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.challengeDesc {
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.participateBtn {
+  min-height: 48px;
+  padding: 8px 18px;
+  background: var(--gold, #D9A93B);
+  color: var(--ink, #140F14);
+  border: 3px solid var(--ink, #140F14);
+  font-family: var(--font-heading), 'Archivo Black', sans-serif;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.participateBtn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ink, #140F14);
+}
+
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sectionTitle {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.rankCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--white);
+  color: var(--text-primary);
+  border: 3px solid var(--ink, #140F14);
+  padding: 1rem;
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+}
+
+.rankNum {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.5rem;
+  color: var(--ink, #140F14);
+  width: 40px;
+}
+
+.rankAvatar {
+  width: 48px;
+  height: 48px;
+  background: var(--parchment, #F6ECD9);
+  border: 2px solid var(--ink, #140F14);
+}
+
+.rankInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.rankName {
+  font-family: 'Archivo Black', sans-serif;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.points {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.25rem;
+}

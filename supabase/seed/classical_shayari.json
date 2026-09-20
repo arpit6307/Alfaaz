@@ -1,0 +1,416 @@
+[
+  {
+    "poet": {
+      "id": "11111111-0000-0000-0000-000000000001",
+      "username": "mirza_ghalib",
+      "takhallus": "मिर्ज़ा ग़ालिब (Ghalib)",
+      "bio": "Mirza Asadullah Khan Ghalib (1797–1869). The Mughal era maestro and emperor of Urdu & Persian ghazal.",
+      "role": "classical_curated",
+      "avatar_url": "/classical/ghalib.jpg",
+      "badges": ["classical", "shair_e_azam"]
+    },
+    "posts": [
+      {
+        "title": "हज़ारों ख़्वाहिशें ऐसी",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "हज़ारों ख़्वाहिशें ऐसी कि हर ख़्वाहिश पे दम निकले" },
+          { "number": 2, "text": "बहुत निकले मिरे अरमान लेकिन फिर भी कम निकले" },
+          { "number": 3, "text": "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے" },
+          { "number": 4, "text": "بہت نکلے مرے ارمان لیکن پھر بھی کم نکلے" }
+        ],
+        "tags": ["#ghalib", "#ishq", "#zindagi", "#classical", "#khwahish"],
+        "mood": "zindagi"
+      },
+      {
+        "title": "इश्क़ पर ज़ोर नहीं",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "इश्क़ पर ज़ोर नहीं है ये वो आतश 'ग़ालिब'" },
+          { "number": 2, "text": "कि लगाए न लगे और बुझाए न बने" },
+          { "number": 3, "text": "عشق پر زور نہیں ہے یہ وہ آتش غالبؔ" },
+          { "number": 4, "text": "کہ لگائے نہ لگے اور بجھائے نہ بنے" }
+        ],
+        "tags": ["#ghalib", "#ishq", "#aag", "#classical"],
+        "mood": "ishq"
+      },
+      {
+        "title": "दिल-ए-नादाँ तुझे हुआ क्या है",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "दिल-ए-नादाँ तुझे हुआ क्या है" },
+          { "number": 2, "text": "आख़िर इस दर्द की दवा क्या है" },
+          { "number": 3, "text": "دلِ ناداں تجھے ہوا کیا ہے" },
+          { "number": 4, "text": "آخر اس درد کی دوا کیا ہے" }
+        ],
+        "tags": ["#ghalib", "#dard", "#tanhai", "#classical"],
+        "mood": "tanhai"
+      },
+      {
+        "title": "रंज से ख़ूगर हुआ इंसान",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "रंज से ख़ूगर हुआ इंसाँ तो मिट जाता है रंज" },
+          { "number": 2, "text": "मुश्किलें मुझ पर पड़ीं इतनी कि आसाँ हो गईं" },
+          { "number": 3, "text": "رنج سے خوگر ہوا انساں تو مٹ جاتا ہے رنج" },
+          { "number": 4, "text": "مشکلیں مجھ پر پڑیں اتنی کہ آساں ہو گئیں" }
+        ],
+        "tags": ["#ghalib", "#sabr", "#zindagi", "#classical"],
+        "mood": "zindagi"
+      },
+      {
+        "title": "हम को मालूम है जन्नत की हक़ीक़त",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "हम को मालूम है जन्नत की हक़ीक़त लेकिन" },
+          { "number": 2, "text": "दिल के ख़ुश रखने को 'ग़ालिब' ये ख़याल अच्छा है" },
+          { "number": 3, "text": "ہم کو معلوم ہے جنّت کی حقیقت لیکن" },
+          { "number": 4, "text": "دل کے خوش رکھنے کو غالبؔ یہ خیال اچھا ہے" }
+        ],
+        "tags": ["#ghalib", "#jannat", "#sufi", "#classical"],
+        "mood": "sufi"
+      },
+      {
+        "title": "काबा किस मुँह से जाओगे 'ग़ालिब'",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "काबा किस मुँह से जाओगे 'ग़ालिब'" },
+          { "number": 2, "text": "शर्म तुम को मगर नहीं आती" },
+          { "number": 3, "text": "کعبہ کس منہ سے جاؤ گے غالبؔ" },
+          { "number": 4, "text": "شرم تم کو مگر نہیں آتی" }
+        ],
+        "tags": ["#ghalib", "#tanz", "#classical"],
+        "mood": "mazaah"
+      },
+      {
+        "title": "इश्क़ ने 'ग़ालिब' निकम्मा कर दिया",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "इश्क़ ने 'ग़ालिब' निकम्मा कर दिया" },
+          { "number": 2, "text": "वर्ना हम भी आदमी थे काम के" },
+          { "number": 3, "text": "عشق نے غالبؔ نکما کر دیا" },
+          { "number": 4, "text": "ورنہ ہم بھی آدمی تھے کام کے" }
+        ],
+        "tags": ["#ghalib", "#ishq", "#classical"],
+        "mood": "ishq"
+      }
+    ]
+  },
+  {
+    "poet": {
+      "id": "11111111-0000-0000-0000-000000000002",
+      "username": "mir_taqi_mir",
+      "takhallus": "मीर तक़ी 'मीर' (Mir)",
+      "bio": "Mir Taqi Mir (1723–1810). Known as Khuda-e-Sukhan (God of Poetry), the pioneer of classic Delhi Ghazal.",
+      "role": "classical_curated",
+      "avatar_url": "/classical/mir.jpg",
+      "badges": ["classical", "khuda_e_sukhan"]
+    },
+    "posts": [
+      {
+        "title": "पत्ता पत्ता बूटा बूटा",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "पत्ता पत्ता बूटा बूटा हाल हमारा जाने है" },
+          { "number": 2, "text": "जाने न जाने गुल ही न जाने बाग़ तो सारा जाने है" },
+          { "number": 3, "text": "پتہ پتہ بوٹا بوٹا حال ہمارا جانے ہے" },
+          { "number": 4, "text": "جانے نہ جانے گل ہی نہ جانے باغ تو سارا جانے ہے" }
+        ],
+        "tags": ["#mir", "#ishq", "#dilli", "#classical"],
+        "mood": "ishq"
+      },
+      {
+        "title": "इब्तिदा-ए-इश्क़ है रोता है क्या",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "इब्तिदा-ए-इश्क़ है रोता है क्या" },
+          { "number": 2, "text": "आगे आगे देखिए होता है क्या" },
+          { "number": 3, "text": "ابتداؔئے عشق ہے روتا ہے کیا" },
+          { "number": 4, "text": "آگے آگے دیکھیے ہوتا ہے کیا" }
+        ],
+        "tags": ["#mir", "#ishq", "#ibtida", "#classical"],
+        "mood": "judai"
+      },
+      {
+        "title": "दिखाई दिए यूँ कि बे-ख़ुद किया",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "दिखाई दिए यूँ कि बे-ख़ुद किया" },
+          { "number": 2, "text": "हमें आप से भी जुदा कर चले" },
+          { "number": 3, "text": "دکھائی دیے یوں کہ بے خود کیا" },
+          { "number": 4, "text": "ہمیں آپ سے بھی جدا کر چلے" }
+        ],
+        "tags": ["#mir", "#deedar", "#classical"],
+        "mood": "ishq"
+      },
+      {
+        "title": "नाज़ुकी उस के लब की क्या कहिए",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "नाज़ुकी उस के लब की क्या कहिए" },
+          { "number": 2, "text": "पंखुड़ी इक गुलाब की सी है" },
+          { "number": 3, "text": "نازکی اس کے لب کی کیا کہیے" },
+          { "number": 4, "text": "پنکھڑی اک گلاب کی سی ہے" }
+        ],
+        "tags": ["#mir", "#husn", "#gulab", "#classical"],
+        "mood": "ishq"
+      },
+      {
+        "title": "मीर' अमदन भी कोई मरता है",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "'मीर' अमदन भी कोई मरता है" },
+          { "number": 2, "text": "जान बूझे भी कोई जाता है" },
+          { "number": 3, "text": "میرؔ عمداً بھی کوئی مرتا ہے" },
+          { "number": 4, "text": "جان بوجھے بھی کوئی جاتا ہے" }
+        ],
+        "tags": ["#mir", "#dard", "#classical"],
+        "mood": "tanhai"
+      }
+    ]
+  },
+  {
+    "poet": {
+      "id": "11111111-0000-0000-0000-000000000003",
+      "username": "allama_iqbal",
+      "takhallus": "अल्लामा 'इक़बाल' (Iqbal)",
+      "bio": "Sir Muhammad Iqbal (1877–1938). The visionary philosopher-poet, author of Bang-e-Dara and Shikwa.",
+      "role": "classical_curated",
+      "avatar_url": "/classical/iqbal.jpg",
+      "badges": ["classical", "mufakkir_e_mashriq"]
+    },
+    "posts": [
+      {
+        "title": "सितारों से आगे जहाँ और भी हैं",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "सितारों से आगे जहाँ और भी हैं" },
+          { "number": 2, "text": "अभी इश्क़ के इम्तिहाँ और भी हैं" },
+          { "number": 3, "text": "ستاروں سے آگے جہاں اور بھی ہیں" },
+          { "number": 4, "text": "ابھی عشق کے امتحاں اور بھی ہیں" }
+        ],
+        "tags": ["#iqbal", "#khudi", "#sufi", "#classical"],
+        "mood": "sufi"
+      },
+      {
+        "title": "ख़ुदी को कर बुलंद इतना",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "ख़ुदी को कर बुलंद इतना कि हर तक़दीर से पहले" },
+          { "number": 2, "text": "ख़ुदा बंदे से ख़ुद पूछे बता तेरी रज़ा क्या है" },
+          { "number": 3, "text": "خودی کو کر بلند اتنا کہ ہر تقدیر سے پہلے" },
+          { "number": 4, "text": "خدا بندے سے خود پوچھے بتا تیری رضا کیا ہے" }
+        ],
+        "tags": ["#iqbal", "#khudi", "#himmat", "#classical"],
+        "mood": "sufi"
+      },
+      {
+        "title": "तू शाहीं है परवाज़ है काम तेरा",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "तू शाहीं है परवाज़ है काम तेरा" },
+          { "number": 2, "text": "तिरे सामने आसमाँ और भी हैं" },
+          { "number": 3, "text": "تو شاہیں ہے پرواز ہے کام تیرا" },
+          { "number": 4, "text": "ترے سامنے آسماں اور بھی ہیں" }
+        ],
+        "tags": ["#iqbal", "#shaheen", "#classical"],
+        "mood": "zindagi"
+      },
+      {
+        "title": "हज़ारों साल नर्गिस अपनी बे-नूरी पे रोती है",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "हज़ारों साल नर्गिस अपनी बे-नूरी पे रोती है" },
+          { "number": 2, "text": "बड़ी मुश्किल से होता है चमन में दीदा-वर पैदा" },
+          { "number": 3, "text": "ہزاروں سال نرگس اپنی بے نوری پہ روتی ہے" },
+          { "number": 4, "text": "بڑی مشکل سے ہوتا ہے چمن میں دیدہ ور پیدا" }
+        ],
+        "tags": ["#iqbal", "#chaman", "#classical"],
+        "mood": "zindagi"
+      }
+    ]
+  },
+  {
+    "poet": {
+      "id": "11111111-0000-0000-0000-000000000004",
+      "username": "daagh_dehlvi",
+      "takhallus": "दाग़ देहलवी (Daagh)",
+      "bio": "Nawab Mirza Khan Daagh Dehlvi (1831–1905). The master of romantic idiom and playful Delhi language.",
+      "role": "classical_curated",
+      "avatar_url": "/classical/daagh.jpg",
+      "badges": ["classical", "bulbul_e_hind"]
+    },
+    "posts": [
+      {
+        "title": "उर्दू है जिस का नाम",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "उर्दू है जिस का नाम हमीं जानते हैं 'दाग़'" },
+          { "number": 2, "text": "सारे जहाँ में धूम हमारी ज़बाँ की है" },
+          { "number": 3, "text": "اردو ہے جس کا نام ہمیں جانتے ہیں داغؔ" },
+          { "number": 4, "text": "سارے جہاں میں دھوم ہماری زباں کی ہے" }
+        ],
+        "tags": ["#daagh", "#urdu", "#zaban", "#classical"],
+        "mood": "ishq"
+      },
+      {
+        "title": "ख़ूब पर्दा है कि चिलमन से लगे बैठे हैं",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "ख़ूब पर्दा है कि चिलमन से लगे बैठे हैं" },
+          { "number": 2, "text": "साफ़ छुपते भी नहीं सामने आते भी नहीं" },
+          { "number": 3, "text": "خوب پردہ ہے کہ چلمن سے لگے بیٹھے ہیں" },
+          { "number": 4, "text": "صاف چھپتے بھی نہیں سامنے آتے بھی نہیں" }
+        ],
+        "tags": ["#daagh", "#parda", "#chilman", "#classical"],
+        "mood": "ishq"
+      },
+      {
+        "title": "आप का ऐतबार कौन करे",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "ग़ैर मुमकिन है कि वो वादा-वफ़ा हो जाएँ" },
+          { "number": 2, "text": "आप का ऐतबार कौन करे" },
+          { "number": 3, "text": "غیر ممکن ہے کہ وہ وعدہ وفا ہو جائیں" },
+          { "number": 4, "text": "آپ کا اعتبار کون کرے" }
+        ],
+        "tags": ["#daagh", "#wada", "#classical"],
+        "mood": "judai"
+      }
+    ]
+  },
+  {
+    "poet": {
+      "id": "11111111-0000-0000-0000-000000000005",
+      "username": "sheikh_zauq",
+      "takhallus": "शेख़ 'ज़ौक़' (Zauq)",
+      "bio": "Mohammad Ibrahim Zauq (1789–1854). Poet laureate of the Mughal court and master of linguistic craft.",
+      "role": "classical_curated",
+      "avatar_url": "/classical/zauq.jpg",
+      "badges": ["classical", "khaqani_e_hind"]
+    },
+    "posts": [
+      {
+        "title": "लाई हयात आए क़ज़ा ले चली चले",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "लाई हयात आए क़ज़ा ले चली चले" },
+          { "number": 2, "text": "अपनी ख़ुशी न आए न अपनी ख़ुशी चले" },
+          { "number": 3, "text": "لائی حیات آئے قضا لے چلی چلے" },
+          { "number": 4, "text": "اپنی خوشی نہ آئے نہ اپنی خوشی چلے" }
+        ],
+        "tags": ["#zauq", "#zindagi", "#qaza", "#classical"],
+        "mood": "zindagi"
+      },
+      {
+        "title": "अब तो घबरा के ये कहते हैं",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "अब तो घबरा के ये कहते हैं कि मर जाएँगे" },
+          { "number": 2, "text": "मर के भी चैन न पाया तो किधर जाएँगे" },
+          { "number": 3, "text": "اب تو گھبرا کے یہ کہتے ہیں کہ مر جائیں گے" },
+          { "number": 4, "text": "مر کے بھی چین نہ پایا تو کدھر جائیں گے" }
+        ],
+        "tags": ["#zauq", "#maut", "#zindagi", "#classical"],
+        "mood": "tanhai"
+      }
+    ]
+  },
+  {
+    "poet": {
+      "id": "11111111-0000-0000-0000-000000000006",
+      "username": "bahadur_shah_zafar",
+      "takhallus": "बहादुर शाह 'ज़फ़र' (Zafar)",
+      "bio": "Bahadur Shah Zafar (1775–1862). The last Mughal Emperor and poignant romantic poet in exile in Rangoon.",
+      "role": "classical_curated",
+      "avatar_url": "/classical/zafar.jpg",
+      "badges": ["classical", "aakhiri_badshah"]
+    },
+    "posts": [
+      {
+        "title": "लगता नहीं है दिल मिरा उजड़े दयार में",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "लगता नहीं है दिल मिरा उजड़े दयार में" },
+          { "number": 2, "text": "किस की बनी है आलम-ए-ना-पाएदार में" },
+          { "number": 3, "text": "لگتا نہیں ہے دل مرا اجڑے دیار میں" },
+          { "number": 4, "text": "کس کی بنی ہے عالم ناپائیدار میں" }
+        ],
+        "tags": ["#zafar", "#dilli", "#judai", "#classical"],
+        "mood": "judai"
+      },
+      {
+        "title": "कितना है बद-नसीब 'ज़फ़र'",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "कितना है बद-नसीब 'ज़फ़र' दफ़्न के लिए" },
+          { "number": 2, "text": "दो गज़ ज़मीं भी न मिली कू-ए-यार में" },
+          { "number": 3, "text": "کتنا ہے بد نصیب ظفرؔ دفن کے لیے" },
+          { "number": 4, "text": "دو گز زمیں بھی نہ ملی کوئے یار میں" }
+        ],
+        "tags": ["#zafar", "#qabr", "#dard", "#classical"],
+        "mood": "tanhai"
+      },
+      {
+        "title": "बात करनी मुझे मुश्किल कभी ऐसी तो न थी",
+        "type": "sher",
+        "language": "urdu",
+        "script": "devanagari",
+        "lines": [
+          { "number": 1, "text": "बात करनी मुझे मुश्किल कभी ऐसी तो न थी" },
+          { "number": 2, "text": "जैसी अब है तिरी महफ़िल कभी ऐसी तो न थी" },
+          { "number": 3, "text": "بات کرنی مجھے مشکل کبھی ایسی تو نہ تھی" },
+          { "number": 4, "text": "جیسی اب ہے تری محفل کبھی ایسی تو نہ تھی" }
+        ],
+        "tags": ["#zafar", "#mehfil", "#classical"],
+        "mood": "ishq"
+      }
+    ]
+  }
+]

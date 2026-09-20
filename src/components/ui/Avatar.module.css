@@ -1,0 +1,19 @@
+.avatar {
+  border: 3px solid var(--ink, #140F14);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gold, #D9A93B);
+  color: var(--ink, #140F14);
+}
+.sm { width: 32px; height: 32px; font-size: 0.75rem; }
+.md { width: 48px; height: 48px; font-size: 1rem; }
+.lg { width: 72px; height: 72px; font-size: 1.5rem; }
+.xl { width: 96px; height: 96px; font-size: 2rem; }
+.fallbackContainer {
+  font-family: var(--font-archivo-black), sans-serif;
+  font-weight: 700;
+}

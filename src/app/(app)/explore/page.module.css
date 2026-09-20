@@ -1,0 +1,116 @@
+.container {
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: var(--parchment, #F6ECD9);
+  padding-bottom: env(safe-area-inset-bottom, 5rem);
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  background: var(--white);
+  border: 3px solid var(--ink, #140F14);
+  padding: 0 1rem;
+  box-shadow: 6px 6px 0 var(--ink, #140F14);
+  min-height: 56px;
+}
+
+.searchIcon {
+  color: var(--ink, #140F14);
+  margin-right: 0.5rem;
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  background: transparent;
+  color: var(--text-primary);
+  width: 100%;
+}
+
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.sectionTitle {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.moodGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.moodCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  aspect-ratio: 1;
+  border: 3px solid var(--ink, #140F14);
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.moodCard:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ink, #140F14);
+}
+
+.ishq { background: var(--blush, #F7C6D0); }
+.judai { background: var(--royal-purple, #3A1C71); color: white; }
+.tanhai { background: var(--ink, #140F14); color: white; }
+.zindagi { background: var(--gold, #D9A93B); }
+.sufi { background: var(--royal-maroon, #5A0F2E); color: white; }
+.mazaahiya { background: var(--gulaabi-rose, #E8386D); color: white; }
+
+.tagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tag {
+  padding: 0.5rem 1rem;
+  background: var(--white);
+  color: var(--text-primary);
+  border: 2px solid var(--ink, #140F14);
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  box-shadow: 3px 3px 0 var(--ink, #140F14);
+}
+
+@media (min-width: 640px) {
+  .moodGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .moodGrid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

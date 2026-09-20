@@ -1,0 +1,143 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem;
+  padding-bottom: env(safe-area-inset-bottom);
+  background-color: var(--parchment, #F6ECD9);
+}
+
+.progressContainer {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem 0 2rem;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.progressBar {
+  height: 4px;
+  flex: 1;
+  background: #e0e0e0;
+  transition: background 0.3s;
+}
+
+.activeBar {
+  background: var(--ink, #140F14);
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.stepContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.title {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: clamp(2rem, 6vw, 3rem);
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--ink, #140F14);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.optionBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem 1rem;
+  min-height: 100px;
+  background: white;
+  border: 3px solid #140F14;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 4px 4px 0 #140F14;
+}
+
+.optionBtn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 #140F14;
+}
+
+.optionBtn.selected {
+  background: var(--ink, #140F14);
+  color: white;
+}
+
+.optionIcon {
+  color: var(--ink, #140F14);
+}
+
+.optionBtn.selected .optionIcon {
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.skipBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  min-height: 44px;
+}
+
+.nextBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--gulaabi, #E8386D);
+  color: var(--ink, #140F14);
+  border: 3px solid #140F14;
+  padding: 0.75rem 1.5rem;
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 #140F14;
+  transition: all 0.2s;
+  min-height: 48px;
+}
+
+.nextBtn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 #140F14;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,102 @@
+/**
+ * ALFAAZ DESIGN SYSTEM — DESIGN TOKENS
+ * Brutalist Shayari & Poetry Platform
+ */
+
+:root {
+  /* Colors */
+  --ink: #140F14;
+  --parchment: #F6ECD9;
+  --maroon: #5A0F2E;
+  --rose: #E8386D;
+  --royal: #3A1C71;
+  --gold: #D9A93B;
+  --blush: #F7C6D0;
+  --white: #FFFFFF;
+  --error: #DC2626;
+  --success: #16A34A;
+  
+  /* Surfaces */
+  --bg-primary: var(--parchment);
+  --bg-secondary: var(--white);
+  --bg-accent: var(--maroon);
+  --text-primary: var(--ink);
+  --text-secondary: #4A4A4A;
+  --text-inverse: var(--parchment);
+  --text-accent: var(--rose);
+  
+  /* Brutalist System */
+  --border-width: 3px;
+  --border: var(--border-width) solid var(--ink);
+  --border-light: 2px solid var(--ink);
+  --radius: 0px;
+  --shadow-hard: 6px 6px 0 var(--ink);
+  --shadow-sm: 3px 3px 0 var(--ink);
+  --shadow-hover: 2px 2px 0 var(--ink);
+  --shadow-gold: 6px 6px 0 var(--gold);
+  
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  
+  /* Typography */
+  --font-heading: 'Archivo Black', sans-serif;
+  --font-royal: 'Playfair Display', serif;
+  --font-hindi: 'Tiro Devanagari Hindi', serif;
+  --font-urdu: 'Noto Nastaliq Urdu', serif;
+  --font-mono: 'Space Mono', monospace;
+  --font-body: 'Space Grotesk', sans-serif;
+  
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.5rem;
+  --text-5xl: 3.5rem;
+  
+  /* Z-index */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal-backdrop: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-nav: 600;
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+  
+  /* Layout */
+  --nav-height: 64px;
+  --bottom-nav-height: 72px;
+  --max-width: 1200px;
+  --content-width: 680px;
+}
+
+/* Dark Mode (Raat Mode / Chandni) */
+[data-theme='dark'], html[data-theme='dark'], body[data-theme='dark'] {
+  color-scheme: dark;
+  --ink: #F6ECD9;
+  --parchment: #140F18;
+  --white: #201728;
+  --bg-primary: #140F18;
+  --bg-secondary: #201728;
+  --bg-accent: #3A1C71;
+  --text-primary: #F6ECD9;
+  --text-secondary: #C8BAD6;
+  --text-inverse: #140F18;
+  --border: var(--border-width) solid #F6ECD9;
+  --border-light: 2px solid rgba(246, 236, 217, 0.4);
+  --shadow-hard: 6px 6px 0 rgba(217, 169, 59, 0.45);
+  --shadow-sm: 3px 3px 0 rgba(217, 169, 59, 0.3);
+  --shadow-hover: 2px 2px 0 rgba(217, 169, 59, 0.2);
+}

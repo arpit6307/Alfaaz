@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Radial gradient for rich royal wax sheen -->
+    <radialGradient id="waxGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#8a1847"/>
+      <stop offset="45%" stop-color="#5A0F2E"/>
+      <stop offset="90%" stop-color="#340518"/>
+      <stop offset="100%" stop-color="#140F14"/>
+    </radialGradient>
+    
+    <!-- Gold gradient for monogram and ornate rings -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2B2"/>
+      <stop offset="30%" stop-color="#D9A93B"/>
+      <stop offset="70%" stop-color="#B38018"/>
+      <stop offset="100%" stop-color="#F2D06B"/>
+    </linearGradient>
+
+    <!-- Subtle drop shadow for brutalist offset -->
+    <filter id="brutalShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="8" dy="8" stdDeviation="0" flood-color="#140F14" flood-opacity="0.95"/>
+    </filter>
+    
+    <!-- Emboss for monogram -->
+    <filter id="emboss">
+      <feDropShadow dx="2" dy="3" stdDeviation="1" flood-color="#140F14" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Brutalist hard shadow base -->
+  <path d="M 256,18
+           C 290,16 325,32 355,50 C 385,68 412,94 434,124 C 456,154 468,190 472,225
+           C 476,260 470,296 454,328 C 438,360 412,388 384,412 C 356,436 322,454 286,462
+           C 250,470 212,468 178,454 C 144,440 114,416 90,388 C 66,360 48,326 42,290
+           C 36,254 42,218 56,184 C 70,150 94,120 122,96 C 150,72 184,54 220,46 Z"
+        fill="#140F14" transform="translate(10, 10)" />
+
+  <!-- Outer scalloped wax seal body with brutalist border -->
+  <path d="M 256,18
+           C 290,16 325,32 355,50 C 385,68 412,94 434,124 C 456,154 468,190 472,225
+           C 476,260 470,296 454,328 C 438,360 412,388 384,412 C 356,436 322,454 286,462
+           C 250,470 212,468 178,454 C 144,440 114,416 90,388 C 66,360 48,326 42,290
+           C 36,254 42,218 56,184 C 70,150 94,120 122,96 C 150,72 184,54 220,46 Z"
+        fill="url(#waxGrad)" stroke="#140F14" stroke-width="8" />
+
+  <!-- Decorative Inner Gold Seal Ridge -->
+  <circle cx="256" cy="256" r="192" fill="none" stroke="url(#goldGrad)" stroke-width="5" />
+  <circle cx="256" cy="256" r="182" fill="none" stroke="#140F14" stroke-width="3" stroke-dasharray="8 6" />
+
+  <!-- Cardinal Royal Stars/Flourishes -->
+  <g fill="url(#goldGrad)">
+    <!-- Top -->
+    <polygon points="256,76 261,89 274,94 261,99 256,112 251,99 238,94 251,89" />
+    <!-- Bottom -->
+    <polygon points="256,400 261,413 274,418 261,423 256,436 251,423 238,418 251,413" />
+    <!-- Left -->
+    <polygon points="94,256 107,251 112,238 117,251 130,256 117,261 112,274 107,261" />
+    <!-- Right -->
+    <polygon points="418,256 405,251 400,238 395,251 382,256 395,261 400,274 405,261" />
+  </g>
+
+  <!-- Deep inner wax field -->
+  <circle cx="256" cy="256" r="155" fill="#470B24" stroke="#140F14" stroke-width="4" />
+
+  <!-- Stylized Devanagari Monogram "अ" (Alfaaz) with high contrast for small sizes -->
+  <g filter="url(#emboss)">
+    <!-- Top Shirorekha (Horizontal Bar) -->
+    <rect x="180" y="152" width="160" height="24" rx="2" fill="url(#goldGrad)" stroke="#140F14" stroke-width="4" />
+    
+    <!-- Vertical Spine (Purna Danda) -->
+    <rect x="290" y="152" width="26" height="204" rx="2" fill="url(#goldGrad)" stroke="#140F14" stroke-width="4" />
+    
+    <!-- Connecting middle arm -->
+    <path d="M 216,252 L 292,252 L 292,274 L 216,274 Z" fill="url(#goldGrad)" stroke="#140F14" stroke-width="4" />
+
+    <!-- Upper loop of 'अ' -->
+    <path d="M 188,186
+             C 246,182 258,232 216,254
+             C 252,246 238,198 188,186 Z"
+          fill="url(#goldGrad)" stroke="#140F14" stroke-width="4" stroke-linejoin="round" />
+    
+    <!-- Lower sweeping calligraphic loop of 'अ' with elegant tail -->
+    <path d="M 216,254
+             C 272,280 262,352 188,354
+             C 166,354 154,342 154,330
+             C 154,316 166,310 176,318
+             C 184,324 192,328 202,328
+             C 230,326 238,284 198,266 Z"
+          fill="url(#goldGrad)" stroke="#140F14" stroke-width="4" stroke-linejoin="round" />
+
+    <!-- Pen nib accent dot -->
+    <circle cx="340" cy="164" r="5" fill="#E8386D" stroke="#140F14" stroke-width="2" />
+  </g>
+</svg>

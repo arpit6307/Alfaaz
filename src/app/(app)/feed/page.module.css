@@ -1,0 +1,387 @@
+/* FEED PAGE STYLES — BRUTALIST + MOBILE FIRST */
+
+.container {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 8px 12px 24px;
+}
+
+.feedHeader {
+  margin-bottom: 20px;
+}
+
+.feedTabs {
+  display: flex;
+  background-color: var(--white);
+  border: 3px solid var(--ink, #140F14);
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+}
+
+.tabBtn {
+  flex: 1;
+  min-height: 44px;
+  background: none;
+  border: none;
+  border-right: 2px solid var(--ink, #140F14);
+  font-family: var(--font-heading), 'Archivo Black', sans-serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: var(--ink, #140F14);
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.tabBtn:last-child {
+  border-right: none;
+}
+
+.tabActive {
+  background-color: var(--maroon, #5A0F2E);
+  color: var(--parchment, #F6ECD9);
+}
+
+/* PINNED BANNER */
+.pinnedBanner {
+  background: linear-gradient(135deg, #fdf4db 0%, #fae6b2 100%);
+  border: 3px solid var(--gold, #D9A93B);
+  box-shadow: 5px 5px 0 var(--ink, #140F14);
+  padding: 20px;
+  margin-bottom: 28px;
+}
+
+.pinnedHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pinnedBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--gold, #D9A93B);
+  border: 2px solid var(--ink, #140F14);
+  padding: 4px 10px;
+  font-family: var(--font-heading), 'Archivo Black', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--ink, #140F14);
+}
+
+.pinnedTagline {
+  font-family: var(--font-space-mono), monospace;
+  font-size: 11px;
+  color: #555;
+}
+
+.pinnedVerse {
+  font-family: var(--font-royal), 'Playfair Display', serif;
+  font-size: clamp(1.15rem, 3.5vw, 1.45rem);
+  font-weight: 600;
+  line-height: 1.8;
+  color: var(--maroon, #5A0F2E);
+  text-align: center;
+  margin: 12px 0 16px 0;
+}
+
+.pinnedFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px dashed var(--gold, #D9A93B);
+  padding-top: 10px;
+}
+
+.pinnedPoet {
+  font-family: var(--font-space-mono), monospace;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: var(--ink, #140F14);
+}
+
+.pinnedCardStudioLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-space-mono), monospace;
+  font-size: 11px;
+  font-weight: bold;
+  color: var(--maroon, #5A0F2E);
+  text-decoration: underline;
+}
+
+/* FEED LIST */
+.feedList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.postCard {
+  background-color: var(--white);
+  border: 3px solid var(--ink, #140F14);
+  box-shadow: 6px 6px 0 var(--ink, #140F14);
+  padding: 20px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.authorSection {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  color: var(--gold, #D9A93B);
+  font-family: var(--font-heading), 'Archivo Black', sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--ink, #140F14);
+  box-shadow: 2px 2px 0 var(--ink, #140F14);
+}
+
+.authorNameRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.authorName {
+  font-family: var(--font-heading), 'Archivo Black', sans-serif;
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: var(--ink, #140F14);
+}
+
+.authorName:hover {
+  text-decoration: underline;
+}
+
+.takhallusBadge {
+  font-family: var(--font-space-mono), monospace;
+  font-size: 10px;
+  font-weight: 700;
+  background-color: var(--blush, #F7C6D0);
+  border: 1px solid var(--ink, #140F14);
+  padding: 2px 6px;
+  color: var(--maroon, #5A0F2E);
+}
+
+.timestamp {
+  font-family: var(--font-space-mono), monospace;
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.saveButton {
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: 2px solid transparent;
+  cursor: pointer;
+  color: var(--ink, #140F14);
+}
+
+.saveButton:hover, .savedActive {
+  background-color: var(--parchment, #F6ECD9);
+  border-color: var(--ink, #140F14);
+}
+
+/* VERSES WRAPPER */
+.versesWrapper {
+  padding: 16px 0;
+  border-top: 2px dashed var(--ink, #140F14);
+  border-bottom: 2px dashed var(--ink, #140F14);
+  margin-bottom: 16px;
+}
+
+.urduVerse {
+  font-family: var(--font-urdu), 'Noto Nastaliq Urdu', serif;
+  font-size: clamp(1.2rem, 3.8vw, 1.6rem);
+  line-height: 2.2;
+  text-align: center;
+  color: var(--ink, #140F14);
+  margin: 0 0 12px 0;
+}
+
+.hindiVerse {
+  font-family: var(--font-hindi), 'Tiro Devanagari Hindi', serif;
+  font-size: clamp(1.1rem, 3.4vw, 1.45rem);
+  line-height: 1.85;
+  text-align: center;
+  color: var(--maroon, #5A0F2E);
+  margin: 0;
+}
+
+.romanVerse {
+  font-family: var(--font-royal), 'Playfair Display', serif;
+  font-size: clamp(1.05rem, 3vw, 1.3rem);
+  font-style: italic;
+  line-height: 1.7;
+  text-align: center;
+  color: var(--ink, #140F14);
+  margin: 8px 0 0 0;
+}
+
+/* TAGS */
+.tagsContainer {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.tag {
+  font-family: var(--font-space-mono), monospace;
+  font-size: 11px;
+  background-color: var(--parchment, #F6ECD9);
+  border: 1px solid var(--ink, #140F14);
+  padding: 2px 8px;
+  color: var(--ink, #140F14);
+}
+
+/* REACTION BAR */
+.reactionsBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.reactionBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 6px 10px;
+  background-color: var(--parchment, #F6ECD9);
+  border: 2px solid var(--ink, #140F14);
+  box-shadow: 2px 2px 0 var(--ink, #140F14);
+  font-family: var(--font-space-mono), monospace;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--ink, #140F14);
+}
+
+.reactionBtn:hover {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 var(--ink, #140F14);
+}
+
+.reactionBtnActive {
+  background-color: var(--gold, #D9A93B);
+}
+
+.reactionBtnRose {
+  background-color: var(--blush, #F7C6D0);
+  color: var(--rose, #E8386D);
+}
+
+.reactionNumber {
+  font-family: var(--font-space-mono), monospace;
+  font-size: 10px;
+  background-color: var(--white);
+  color: var(--text-primary);
+  border: 1px solid var(--ink, #140F14);
+  padding: 1px 4px;
+}
+
+.commentBtn, .shareBtn {
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: var(--parchment, #F6ECD9);
+  border: 2px solid var(--ink, #140F14);
+  box-shadow: 2px 2px 0 var(--ink, #140F14);
+  color: var(--ink, #140F14);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.commentBtn {
+  margin-left: auto;
+  padding: 6px 10px;
+  font-family: var(--font-space-mono), monospace;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.shareBtn:hover, .commentBtn:hover {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 var(--ink, #140F14);
+}
+
+/* FAB BUTTON */
+.fab {
+  position: fixed;
+  bottom: calc(76px + env(safe-area-inset-bottom, 0px));
+  right: 16px;
+  width: 58px;
+  height: 58px;
+  background-color: var(--rose, #E8386D);
+  color: var(--parchment, #F6ECD9);
+  border: 3px solid var(--ink, #140F14);
+  box-shadow: 5px 5px 0 var(--ink, #140F14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 990;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.fab:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 3px 3px 0 var(--ink, #140F14);
+}
+
+@media (min-width: 768px) {
+  .fab {
+    bottom: 32px;
+    right: 32px;
+  }
+}
+
+:global([data-theme='dark']) .pinnedBanner {
+  background: linear-gradient(135deg, #241A28 0%, #35233D 100%);
+  border-color: var(--gold, #D9A93B);
+}
+
+:global([data-theme='dark']) .pinnedVerse {
+  color: var(--gold, #D9A93B);
+}
+
+:global([data-theme='dark']) .pinnedTagline {
+  color: #B8A8C8;
+}
+
+:global([data-theme='dark']) .pinnedPoet {
+  color: var(--parchment, #F6ECD9);
+}
+
+:global([data-theme='dark']) .pinnedCardStudioLink {
+  color: var(--rose, #E8386D);
+}

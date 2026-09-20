@@ -1,0 +1,124 @@
+.container {
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: var(--parchment, #F6ECD9);
+  padding-bottom: env(safe-area-inset-bottom, 5rem);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.newChatBtn {
+  min-width: 44px;
+  min-height: 44px;
+  background: var(--ink, #140F14);
+  color: white;
+  border: 3px solid var(--ink, #140F14);
+  box-shadow: 4px 4px 0 var(--gold, #D9A93B);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  background: var(--white);
+  border: 3px solid var(--ink, #140F14);
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+  min-height: 48px;
+}
+
+.searchIcon {
+  color: var(--ink, #140F14);
+  margin-right: 0.5rem;
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  background: transparent;
+  color: var(--text-primary);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.chatCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--white);
+  padding: 1rem;
+  border: 3px solid var(--ink, #140F14);
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: transform 0.2s;
+}
+
+.chatCard:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ink, #140F14);
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  background: var(--royal-purple, #3A1C71);
+  border: 2px solid var(--ink, #140F14);
+}
+
+.chatInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.chatHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatName {
+  font-family: 'Archivo Black', sans-serif;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.time {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.lastMessage {
+  font-family: 'Space Mono', monospace;
+  margin: 0;
+  font-size: 0.9rem;
+  color: #333;
+}

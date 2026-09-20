@@ -1,0 +1,202 @@
+.container {
+  min-height: 100vh;
+  background-color: var(--parchment, #F6ECD9);
+  padding-bottom: env(safe-area-inset-bottom, 2rem);
+}
+
+.cover {
+  height: 150px;
+  background-color: var(--royal-purple, #3A1C71);
+  border-bottom: 3px solid var(--ink, #140F14);
+  position: relative;
+}
+
+.avatarWrapper {
+  position: absolute;
+  bottom: -40px;
+  left: 1rem;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background-color: var(--gold, #D9A93B);
+  border: 3px solid var(--ink, #140F14);
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatarIcon {
+  color: var(--ink, #140F14);
+}
+
+.main {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.name {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.followBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--ink, #140F14);
+  color: white;
+  border: 3px solid var(--ink, #140F14);
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  box-shadow: 4px 4px 0 var(--gold, #D9A93B);
+  cursor: pointer;
+}
+
+.handle {
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  color: #666;
+  margin: 0;
+}
+
+.bio {
+  font-family: 'Space Mono', monospace;
+  margin-top: 0.5rem;
+}
+
+.statsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.statBox {
+  flex: 1;
+  min-width: 100px;
+  border: 3px solid var(--ink, #140F14);
+  background: var(--white);
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+}
+
+.statNum {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.25rem;
+}
+
+.statLabel {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 3px solid var(--ink, #140F14);
+  overflow-x: auto;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: none;
+  border: none;
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  white-space: nowrap;
+  cursor: pointer;
+  border-bottom: 4px solid transparent;
+}
+
+.activeTab {
+  border-bottom-color: var(--gulaabi-rose, #E8386D);
+  color: var(--gulaabi-rose, #E8386D);
+}
+
+.contentGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.postCard {
+  border: 3px solid var(--ink, #140F14);
+  background: var(--white);
+  padding: 1.5rem;
+  box-shadow: 6px 6px 0 var(--ink, #140F14);
+}
+
+.sher {
+  font-family: 'Noto Nastaliq Urdu', 'Tiro Devanagari Hindi', serif;
+  font-size: 1.25rem;
+  line-height: 2;
+  text-align: center;
+  margin: 0 0 1.5rem 0;
+}
+
+.postActions {
+  display: flex;
+  gap: 1rem;
+  border-top: 2px dashed var(--ink, #140F14);
+  padding-top: 1rem;
+}
+
+.actionCount {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+}
+
+@media (min-width: 640px) {
+  .cover {
+    height: 200px;
+  }
+  .avatarWrapper {
+    bottom: -60px;
+    left: 2rem;
+  }
+  .avatar {
+    width: 120px;
+    height: 120px;
+  }
+  .main {
+    margin-top: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contentGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,74 @@
+.bottomNav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 72px;
+  background-color: var(--parchment, #F6ECD9);
+  border-top: 3px solid var(--ink, #140F14);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+  padding: 0 8px;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--ink, #140F14);
+  flex: 1;
+  gap: 4px;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.tabActive {
+  color: var(--rose, #E8386D);
+}
+
+.label {
+  font-family: var(--font-space-mono), monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.indicator {
+  width: 4px;
+  height: 4px;
+  background-color: var(--rose, #E8386D);
+  border-radius: 50%;
+}
+
+.composeWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.composeTab {
+  width: 56px;
+  height: 56px;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 50%;
+  background-color: var(--rose, #E8386D);
+  border: 3px solid var(--ink, #140F14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+  color: var(--parchment, #F6ECD9);
+  margin-top: -24px;
+}
+
+@media (min-width: 768px) {
+  .bottomNav {
+    display: none;
+  }
+}

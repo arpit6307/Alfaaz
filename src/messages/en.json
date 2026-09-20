@@ -1,0 +1,50 @@
+{
+  "Common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success!"
+  },
+  "Navigation": {
+    "home": "Home",
+    "explore": "Explore",
+    "compose": "Compose",
+    "chat": "Chat",
+    "profile": "Profile",
+    "notifications": "Notifications",
+    "settings": "Settings",
+    "search": "Search"
+  },
+  "Auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "email": "Email Address",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?"
+  },
+  "Shayari": {
+    "post": "Post",
+    "write": "Write your heart out...",
+    "likes": "Likes",
+    "comments": "Comments",
+    "share": "Share",
+    "reply": "Reply",
+    "readMore": "Read More"
+  },
+  "Profile": {
+    "followers": "Followers",
+    "following": "Following",
+    "posts": "Posts",
+    "editProfile": "Edit Profile",
+    "bio": "Bio",
+    "joined": "Joined"
+  }
+}

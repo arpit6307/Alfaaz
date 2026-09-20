@@ -1,0 +1,231 @@
+.container {
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: var(--parchment, #F6ECD9);
+  padding-bottom: env(safe-area-inset-bottom, 2rem);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem 0;
+}
+
+.backBtn {
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--ink, #140F14);
+  background: var(--white);
+  color: var(--ink, #140F14);
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+}
+
+.title {
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.main {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card {
+  border: 3px solid var(--ink, #140F14);
+  background-color: var(--white);
+  padding: 1.5rem;
+  box-shadow: 6px 6px 0 var(--ink, #140F14);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.author {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  background-color: var(--royal-maroon, #5A0F2E);
+  border: 2px solid var(--ink, #140F14);
+}
+
+.authorName {
+  font-family: 'Archivo Black', sans-serif;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.time {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.content {
+  padding: 2rem 0;
+}
+
+.sher {
+  font-family: 'Noto Nastaliq Urdu', 'Tiro Devanagari Hindi', serif;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  line-height: 2;
+  text-align: center;
+  color: var(--ink, #140F14);
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: space-between;
+  border-top: 3px solid var(--ink, #140F14);
+  padding-top: 1rem;
+}
+
+.actionBtn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-width: 44px;
+  min-height: 44px;
+  background: var(--white);
+  color: var(--text-primary);
+  border: 2px solid var(--ink, #140F14);
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--ink, #140F14);
+}
+
+.shareActions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.shareBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  background: var(--gold, #D9A93B);
+  border: 2px solid var(--ink, #140F14);
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.commentsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sectionTitle {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.commentInput {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input {
+  flex: 1;
+  min-height: 44px;
+  padding: 0 1rem;
+  border: 3px solid var(--ink, #140F14);
+  background: var(--white);
+  color: var(--text-primary);
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+}
+
+.sendBtn {
+  min-width: 44px;
+  min-height: 44px;
+  background: var(--ink, #140F14);
+  color: var(--parchment, #F6ECD9);
+  border: 3px solid var(--ink, #140F14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 4px 0 var(--gold, #D9A93B);
+}
+
+.commentsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.comment {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--white);
+  border: 2px solid var(--ink, #140F14);
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+}
+
+.commentAvatar {
+  width: 32px;
+  height: 32px;
+  background: var(--gulaabi-rose, #E8386D);
+  border: 2px solid var(--ink, #140F14);
+}
+
+.commentContent {
+  flex: 1;
+}
+
+.commentAuthor {
+  font-family: 'Archivo Black', sans-serif;
+  margin: 0 0 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+.commentText {
+  font-family: 'Space Mono', monospace;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 640px) {
+  .shareActions {
+    flex-direction: row;
+  }
+  .shareBtn {
+    flex: 1;
+  }
+}

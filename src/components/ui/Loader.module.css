@@ -1,0 +1,21 @@
+.loaderWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.spinner {
+  border: 4px solid var(--ink, #140F14);
+  background-color: var(--gold, #D9A93B);
+  animation: brutalSpin 1.5s infinite linear;
+}
+.sm .spinner { width: 16px; height: 16px; border-width: 2px; }
+.md .spinner { width: 32px; height: 32px; }
+.lg .spinner { width: 48px; height: 48px; border-width: 5px; }
+
+@keyframes brutalSpin {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(90deg) scale(1.1); background-color: var(--rose, #E8386D); }
+  50% { transform: rotate(180deg) scale(1); background-color: var(--maroon, #5A0F2E); }
+  75% { transform: rotate(270deg) scale(1.1); background-color: var(--royal, #3A1C71); }
+  100% { transform: rotate(360deg) scale(1); background-color: var(--gold, #D9A93B); }
+}

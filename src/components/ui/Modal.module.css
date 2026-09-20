@@ -1,0 +1,64 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(20, 15, 20, 0.7);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+}
+.modalContainer {
+  background-color: var(--parchment, #F6ECD9);
+  border: 3px solid var(--ink, #140F14);
+  box-shadow: 8px 8px 0 var(--ink, #140F14);
+  width: 100%;
+  max-width: 500px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-block-end: 3px solid var(--ink, #140F14);
+  background-color: var(--gold, #D9A93B);
+}
+.title {
+  font-family: var(--font-archivo-black), sans-serif;
+  font-size: 1.25rem;
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--ink, #140F14);
+}
+.closeBtn {
+  background: transparent;
+  border: 2px solid var(--ink, #140F14);
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-space-mono), monospace;
+  color: var(--ink, #140F14);
+  transition: all 0.2s;
+  background-color: var(--parchment, #F6ECD9);
+}
+.closeBtn:hover {
+  background-color: var(--rose, #E8386D);
+  color: var(--ink, #140F14);
+}
+.content {
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

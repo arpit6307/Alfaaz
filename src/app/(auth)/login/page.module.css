@@ -1,0 +1,192 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: transparent;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--parchment, #F6ECD9);
+  border: 3px solid var(--ink, #140F14);
+  padding: 2rem 1.5rem;
+  box-shadow: 8px 8px 0 var(--ink, #140F14);
+}
+
+.title {
+  font-family: var(--font-heading), 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--ink, #140F14);
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 1.5rem;
+  border: 3px solid var(--ink, #140F14);
+}
+
+.tab, .activeTab {
+  flex: 1;
+  min-height: 44px;
+  font-family: var(--font-space-mono), monospace;
+  font-size: 0.9rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background 0.2s;
+  color: var(--ink, #140F14);
+}
+
+.tab:not(:last-child), .activeTab:not(:last-child) {
+  border-right: 3px solid var(--ink, #140F14);
+}
+
+.activeTab {
+  background: var(--ink, #140F14);
+  color: var(--parchment, #F6ECD9);
+}
+
+.tab:hover {
+  background: rgba(20, 15, 20, 0.05);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputGroup {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 1rem;
+  color: #666;
+}
+
+.input {
+  width: 100%;
+  min-height: 48px;
+  padding: 0.5rem 2.5rem 0.5rem 3rem;
+  font-family: var(--font-space-mono), monospace;
+  font-size: 1rem;
+  border: 3px solid var(--ink, #140F14);
+  background: var(--white);
+  transition: box-shadow 0.2s, transform 0.2s;
+  color: var(--text-primary);
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 4px 4px 0 var(--rose, #E8386D);
+  transform: translate(-2px, -2px);
+}
+
+.toggleBtn {
+  position: absolute;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.submitBtn {
+  width: 100%;
+  min-height: 48px;
+  background: var(--rose, #E8386D);
+  color: var(--ink, #140F14);
+  font-family: var(--font-heading), 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  border: 3px solid var(--ink, #140F14);
+  cursor: pointer;
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 0.5rem;
+}
+
+.submitBtn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ink, #140F14);
+}
+
+.divider {
+  text-align: center;
+  margin: 1.5rem 0;
+  font-family: var(--font-space-mono), monospace;
+  position: relative;
+  color: #666;
+}
+
+.divider::before, .divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: calc(50% - 20px);
+  height: 2px;
+  background: var(--ink, #140F14);
+}
+
+.divider::before { left: 0; }
+.divider::after { right: 0; }
+
+.googleBtn {
+  width: 100%;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  background: white;
+  border: 3px solid var(--ink, #140F14);
+  font-family: var(--font-space-mono), monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 var(--ink, #140F14);
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: var(--ink, #140F14);
+}
+
+.googleBtn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ink, #140F14);
+}
+
+.footerText {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: var(--font-space-mono), monospace;
+  font-size: 0.9rem;
+}
+
+.footerText a {
+  color: var(--rose, #E8386D);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footerText a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 640px) {
+  .card {
+    padding: 2.5rem 2rem;
+  }
+}
