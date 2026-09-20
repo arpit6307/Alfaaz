@@ -113,7 +113,7 @@ export default function ChallengesPage() {
                 </h3>
               </div>
               <p style={{ margin: 0, fontFamily: 'var(--font-space-mono), monospace', fontSize: '0.85rem', color: 'var(--text-secondary, #666)' }}>
-                Agla sher aakhiri harf <strong>'नून' (N)</strong> se shuru karein.
+                Agla sher aakhiri harf <strong>&apos;नून&apos; (N)</strong> se shuru karein.
               </p>
             </div>
 

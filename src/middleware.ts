@@ -8,9 +8,18 @@ export async function middleware(request: NextRequest) {
     },
   })
 
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+  const isSupabaseConfigured = 
+    Boolean(supabaseUrl && supabaseKey && !supabaseUrl.includes('placeholder'))
+
+  if (!isSupabaseConfigured) {
+    return response
+  }
+
   const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    supabaseUrl!,
+    supabaseKey!,
     {
       cookies: {
         get(name: string) {
@@ -54,18 +63,12 @@ export async function middleware(request: NextRequest) {
     }
   )
 
-  const isSupabaseConfigured = 
-    process.env.NEXT_PUBLIC_SUPABASE_URL && 
-    !process.env.NEXT_PUBLIC_SUPABASE_URL.includes('placeholder')
-
   let user = null
-  if (isSupabaseConfigured) {
-    try {
-      const { data } = await supabase.auth.getUser()
-      user = data.user
-    } catch {
-      user = null
-    }
+  try {
+    const { data } = await supabase.auth.getUser()
+    user = data.user
+  } catch {
+    user = null
   }
 
   // Card Studio is public for viral sharing across WhatsApp/Instagram

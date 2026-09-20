@@ -134,7 +134,7 @@ export default function SettingsPage() {
 
   // Handle Notification Toggle Save
   const toggleNotif = (key: 'wah' | 'comments' | 'followers' | 'digest') => {
-    let updated = {
+    const updated = {
       wah: notifWah,
       comments: notifComments,
       followers: notifFollowers,
